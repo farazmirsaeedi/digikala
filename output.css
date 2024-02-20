@@ -846,6 +846,14 @@ video {
   height: 1.5rem;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[4\.3rem\] {
+  height: 4.3rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -2481,6 +2489,12 @@ video {
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
   }
 }
 
