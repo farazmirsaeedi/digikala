@@ -40,7 +40,24 @@ var swiperr = new Swiper(".mySwiper-1", {
 });
 
 var swiperrr = new Swiper(".mySwiper-2", {
-  slidesPerView: 3,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1
+    },
+    400:{
+      slidesPerView: 2,
+      spaceBetween: 10
+    },
+    700:{
+      slidesPerView: 3,
+      spaceBetween: 10
+    },
+    1000:{
+      slidesPerView: 5,
+      spaceBetween: 3
+    }
+  },
   spaceBetween: 30,
  
 });
